@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+<!--
+android:background="#CDC9C9"
+-->
+
+        <TextView
+            android:id="@+id/tvName_rowStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#F00"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"/>
+        <ImageView
+            android:id="@+id/ivEdit_rowStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:src="@android:drawable/ic_menu_edit"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tvCourse_rowStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:textColor="#F00"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/ivDelete_rowStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:src="@android:drawable/ic_delete"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Fee"
+            android:paddingLeft="10dp"
+            android:textColor="#F00"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fee Paid"
+            android:textSize="20dp"
+            android:textColor="#F00"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tvTotalFee_rowStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Fee"
+            android:paddingLeft="10dp"
+            android:textColor="#F00"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tvFeePaid_rowStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fee Paid"
+            android:textSize="20dp"
+            android:textColor="#F00"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>
